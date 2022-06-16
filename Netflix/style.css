@@ -1,15 +1,16 @@
 body{
-    background-color: black;
-}
-#header{
-    background-image: url("https://w.wallha.com/ws/1/vRs0PSJL.jpg");
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/26/205901/e0389e2031c3b353637bb0c3c5739117-1000.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.9;
     margin: 0;
     padding: 0;
 }
+#header{
+    
+}
 #logo{
-    color: red;
+    color: rgb(252, 33, 33);
     padding: 5px;
+    font-size: larger;
 }
