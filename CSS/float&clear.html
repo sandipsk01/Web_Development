@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Rubik Moonrocks', cursive;
+        }
+        .container{
+            border: 2px solid blue;
+            width: 1000px;
+            height: 600px;
+            margin: auto;
+        }
+        .item{
+            border: 3px solid black;
+            background-color: aqua;
+        }
+        #Fruits{
+            float: left;
+            margin: 3px;
+            width: 48%;
+        }
+        #Computers{
+            float: right;
+            margin: 3px;
+            width: 48%;
+        } 
+        #Stationary{
+            margin: 3px;
+            /* clear */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Fruits" class="item">
+            <h1>Fruits</h1>
+            <p id="Fruitspara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam, at facilis eos ut consequuntur quis. Numquam voluptatem quas sapiente.
+            </p>
+        </div>
+        <div id="Computers" class="item">
+            <h1>Computers</h1>
+            <p id="Computersspara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam, at facilis eos ut consequuntur quis. Numquam voluptatem quas sapiente.
+            </p>
+        </div>
+        <div id="Stationary" class="item">
+            <h1>Stationary</h1>
+            <p id="Stationarypara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam, at facilis eos ut consequuntur quis. Numquam voluptatem quas sapiente.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
