@@ -1,41 +1,41 @@
-*{
+body {
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-body{
+header::before{
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100vw;
-    margin: 0;
-    padding: 0;
+    height: 60vh;
+    z-index: -1;
 }
-.container{
-    width: 100vw;
+.navbar{
+    display: flex;
+    justify-content: right;
 }
-.imageContainer{
-    background-image: url('https://media.cntraveler.com/photos/5c0830441a2ab82c9b4c8f52/3:2/w_2385,h_1590,c_limit/AvaGenesTablebyAJMeeker.jpg');
-    height: 486px;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
+.navigation {
+    font-size: 20px;
+    display: flex;
+    
 }
-h1{
-    color: #ffffff;
-    position: relative;
-    top: 270px;
-    text-align: center;
-    opacity: 1;
+li {
+    list-style: none;
+    padding: 20px 23px;
 }
-.searchCategory{
-    position: relative;
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.searchcategoryTitle{
-    position: relative;
-    top: 10px;
-    color: #333;
-    text-align: left;
+.logo{
+    margin: 1rem;
 }
-.subTitle{
-    position: relative;
-    top: 30px;
-    color: #333;
-    text-align: left;
+.searchcontainer{
+    margin: 1rem;
 }
