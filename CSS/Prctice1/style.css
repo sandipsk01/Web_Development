@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+header::before{
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 60vh;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+.navigation {
+    font-size: 20px;
+    display: flex;
+    
+}
+li {
+    list-style: none;
+    padding: 20px 23px;
+}
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin: 1rem;
+}
+.searchcontainer{
+    margin: 1rem;
+}
