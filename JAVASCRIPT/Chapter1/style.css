@@ -1,0 +1,19 @@
+div{
+    margin: 20px;
+    border: solid 2px black;
+}
+#feedback{
+    background-color: rgb(72, 177, 177);
+    border: solid 1px black;
+    padding: 10px;
+}
+#errorStatement{
+    background-color: rgb(174, 14, 14);
+    border: solid 1px black;
+    padding: 10px;
+}
+h1{
+    background-color: rgb(81, 180, 180);
+    border: solid 1px black;
+    padding: 10px;
+}
