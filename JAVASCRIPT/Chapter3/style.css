@@ -1,0 +1,7 @@
+.items > div{
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2pc solid black;
+}
